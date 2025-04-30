@@ -49,7 +49,9 @@ const Navbar: React.FC = () => {
             </a>
           ))}
           <Button className="bg-italian-terracotta hover:bg-italian-terracotta/90 text-white">
-            Book Lesson
+            <a href="https://www.facebook.com/lucia.italianteacher" >
+              Book Lesson
+            </a>
           </Button>
         </nav>
 

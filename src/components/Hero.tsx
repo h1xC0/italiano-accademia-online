@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
+import { Link } from 'lucide-react';
 
 const Hero: React.FC = () => {
   const [loaded, setLoaded] = useState(false);
@@ -49,10 +50,14 @@ const Hero: React.FC = () => {
             loaded ? 'animate-fade-in animate-delay-300' : 'opacity-0'
           )}>
             <Button className="bg-italian-terracotta hover:bg-italian-terracotta/90 text-white text-lg px-8 py-6">
+              <a href='https://www.facebook.com/lucia.italianteacher'>
               Book Your First Lesson
+              </a>
             </Button>
-            <Button variant="outline" className="border-italian-cream/30 text-italian-cream hover:bg-italian-cream/10 text-lg px-8 py-6">
-              Learn More
+            <Button variant="outline" className="border-italian-cream/30 text-black color:italian-cream hover:bg-italian-cream/10 hover:text-white text-lg px-8 py-6">
+            <a href={`#${"about".toLowerCase()}`}>
+                Learn More
+                </a>
             </Button>
           </div>
           

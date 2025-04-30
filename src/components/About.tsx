@@ -28,7 +28,7 @@ const About: React.FC = () => {
           >
             <div className="absolute inset-0 bg-italian-terracotta transform translate-x-4 translate-y-4 rounded-lg"></div>
             <img 
-              src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" 
+              src="https://thumbs.dreamstime.com/b/online-foreign-languages-tutoring-joyful-female-teacher-giving-italian-class-pointing-blackboard-basic-grammar-rules-209220580.jpg" 
               alt="Italian Teacher" 
               className="relative z-10 rounded-lg shadow-xl w-full h-full object-cover"
             />
@@ -43,11 +43,11 @@ const About: React.FC = () => {
               )}
             >
               <h3 className="text-2xl font-semibold text-italian-gold mb-4">
-                Sophia Rossi
+                Lucia
               </h3>
               <p className="text-italian-cream/80">
-                Ciao! I'm Sophia, a native Italian speaker with over 10 years of teaching experience. 
-                Born and raised in Florence, I bring authentic Italian culture and language to each of my lessons.
+                Ciao! I'm Lucia, a native Italian speaker with over 10 years of teaching experience. 
+                Born and raised in Catania, I bring authentic Italian culture and language to each of my lessons.
               </p>
             </div>
             

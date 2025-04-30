@@ -86,7 +86,9 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
             : "bg-italian-terracotta hover:bg-italian-terracotta/90 text-white"
         )}
       >
+        <a href='https://www.facebook.com/lucia.italianteacher'>
         Book Now
+        </a>
       </Button>
     </div>
   );

@@ -91,8 +91,8 @@ const ContactForm: React.FC = () => {
                 </div>
                 <div>
                   <p className="text-italian-cream font-medium">Phone</p>
-                  <a href="tel:+1234567890" className="text-italian-cream/70 hover:text-italian-gold transition-colors">
-                    +1 (234) 567-890
+                  <a href="tel:+31273314268" className="text-italian-cream/70 hover:text-italian-gold transition-colors">
+                    +31 (273) 314 2680
                   </a>
                 </div>
               </div>
@@ -106,9 +106,8 @@ const ContactForm: React.FC = () => {
                 <div>
                   <p className="text-italian-cream font-medium">Location</p>
                   <p className="text-italian-cream/70">
-                    Downtown Language Center<br />
                     123 Main Street, Suite 456<br />
-                    San Francisco, CA 94105
+                    Netherlands, Gronigen
                   </p>
                 </div>
               </div>
@@ -120,7 +119,7 @@ const ContactForm: React.FC = () => {
               </h4>
               <div className="flex gap-4">
                 <a 
-                  href="#" 
+                  href='https://www.facebook.com/lucia.italianteacher'
                   className="w-10 h-10 rounded-full bg-italian-navy flex items-center justify-center text-italian-cream hover:bg-italian-terracotta transition-colors"
                 >
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
