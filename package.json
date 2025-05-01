@@ -1,12 +1,12 @@
 {
   "name": "italiano-accademia",
   "homepage": "https://h1xc0.github.io/italiano-accademia-online",
-  "private": true,
-  "version": "0.0.0",
+  "private": false,
+  "version": "0.1.0",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d deploy",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "build:dev": "vite build --mode development",
